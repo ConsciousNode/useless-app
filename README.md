@@ -46,6 +46,13 @@ pyinstaller --onefile --noconsole --name "Useless App" useless_machine.py
 
 Output lands in `dist/`.
 
+## Fun Facts
+
+- The Python source is **7KB**
+- The standalone `.exe` is **34MB**
+- That's the entire Qt framework, Python runtime, and all supporting libraries bundled together to deliver one button that closes a window
+- The bloat is load-bearing
+
 ## License
 
 MIT — see [LICENSE](LICENSE)
